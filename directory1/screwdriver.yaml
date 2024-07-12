@@ -1,8 +1,0 @@
-shared:
-  image: node:16
- 
-jobs:
-  job1:
-    requires: [ ~commit ]
-    steps:
-      - echo: echo "this is build1"
